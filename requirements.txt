@@ -6,3 +6,4 @@ pmdarima
 torch
 prophet
 pandas
+statsmodels
