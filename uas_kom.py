@@ -12,7 +12,7 @@ import numpy as np
 import math, time
 from sklearn.metrics import mean_squared_error
 from prophet import Prophet
-
+torch.classes.__path__ = [] 
 st.markdown(
 '''
 <style>
