@@ -64,7 +64,7 @@ st.markdown('jadi bisa dilihat bahwa tidak terdapat nilai na di saham bca.')
 
 st.markdown('berikut grafik dari harga close saham bca')
 bca[['Close']].plot(figsize=(15, 6))
-plt.title('bca Stock close2 Prediction')
+plt.title('bca Stock close2')
 plt.xlabel('Time')
 plt.ylabel('bca Stock close2')
 plt.legend()
