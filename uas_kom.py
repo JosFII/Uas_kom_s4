@@ -100,7 +100,7 @@ close.to_csv('bbca_historical_data.csv')
 clos3=pd.read_csv('bbca_historical_data.csv')
 clos3 = clos3.rename(columns = {"Date":"ds","BBCA.JK":"y"}) #renaming the columns of the dataset
 st.write(clos3.head())
-st.markdown('jadi bnisa dilihat bahwa nama column nya sudah diganti menjadi ds dan y')
+st.markdown('jadi bisa dilihat bahwa nama column nya sudah diganti menjadi ds dan y')
 
 st.subheader("Prediction Stock Market: Arima")
 
