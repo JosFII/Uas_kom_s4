@@ -85,7 +85,7 @@ close2 = bca[['Close']]
 scaler = MinMaxScaler(feature_range=(-1, 1))
 close2['Close'] = scaler.fit_transform(close2['Close'].values.reshape(-1,1))
 st.write(close2)
-st.markdown('bisa dilihat bahwa dta nilai close sudah dinormalisasikan')
+st.markdown('bisa dilihat bahwa data nilai close sudah dinormalisasikan')
 st.markdown('''
 untuk prediksi dengan prophet kita perlu merubah column date dan column close menjadi ds dan y. ini dilakukan dengan kode
 berikut: \n
