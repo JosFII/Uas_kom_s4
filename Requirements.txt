@@ -1,0 +1,7 @@
+numpy==1.26.4
+yfinance==0.2.61
+scikit-learn
+matplotlib
+pmdarima
+torch
+prophet
