@@ -73,7 +73,7 @@ st.pyplot(plt.gcf())
 
 
 st.subheader("Feature Engineering")
-st.markdown('''petama kita akan membuat nilai saham close bca variabelnya sendiri:\n
+st.markdown('''pertama kita akan membuat nilai saham close bca variabelnya sendiri:\n
             close=bca['Close']''')
 close=bca['Close']
 st.markdown('''untuk prediksi mengunakan LSTM, pertama data harus dinormalisasikan, 
